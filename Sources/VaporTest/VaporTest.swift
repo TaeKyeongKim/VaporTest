@@ -45,7 +45,7 @@ public func routes(_ app: Application, method: HTTPMethod, path: String, paramet
 
 public func run(_ app: Application) async throws {
     try await app.execute()
-    try await app.asyncShutdown()
+//    try await app.asyncShutdown()
 }
     
 //
